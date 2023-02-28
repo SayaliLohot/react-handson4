@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(159, 159, 233), pink);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.nav {
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.nav__child {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.nav_p:hover{
+    color: orange;
+}
+h1{
+    padding: 3rem;
+}
+.Student_div1{
+    display: flex;
+    justify-content: space-between;
+}
+.Student_div1 button{
+    height: 7vh;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    width: 15%;
+    font-size: 15px;
+    border-radius: 20px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+table tr td {
+    padding: 10px;
+}
